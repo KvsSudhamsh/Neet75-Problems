@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class TwoSum {
     public static int[] twoSum(int[] nums, int target) {
         int n = nums.length;
         int[] arr = new int[2];
