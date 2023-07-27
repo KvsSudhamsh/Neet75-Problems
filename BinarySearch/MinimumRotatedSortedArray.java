@@ -24,15 +24,15 @@ public class MinimumRotatedSortedArray {
         return res;
     }
 
-    public static void main(String args[]){
-        try(Scanner sc=new Scanner(System.in)){
-            int n=sc.nextInt();
-            int[] nums= new int[n];
-            for(int i=0;i<n;i++){
-                nums[i]=sc.nextInt();
+    public static void main(String args[]) {
+        try (Scanner sc = new Scanner(System.in)) {
+            int n = sc.nextInt();
+            int[] nums = new int[n];
+            for (int i = 0; i < n; i++) {
+                nums[i] = sc.nextInt();
             }
-            int result=findMin(nums);
-            System.out.println("Minimum number in Rotated Sorted Array :"+ result);
+            int result = findMin(nums);
+            System.out.println("Minimum number in Rotated Sorted Array :" + result);
         }
     }
 }
